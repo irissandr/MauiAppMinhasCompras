@@ -14,7 +14,7 @@ namespace MauiAppMinhasCompras.Helpers
         }
 
 
-        public Task <int> Inset(Produto p)
+        public Task <int> Insert(Produto p)
         {
         return _conn.InsertAsync(p);
         }
